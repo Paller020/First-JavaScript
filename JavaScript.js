@@ -13,3 +13,4 @@ else if(Number(age) === 18){
 else{
     alert("Pleas put a correct value!")
 }
+s
