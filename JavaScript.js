@@ -1,13 +1,14 @@
-4+3;
+function multiply(a, b){
 
-if(4+3 === 7){
-    console.log("Hellooooooo");
+if(a > 10 || b> 10 ){
+    return "that's too hard";
+} 
+else{
+    return a*b;
+}
+    return a*b;
+
 }
 
-console.log("Hellooooooo");
-console.log("Hellooooooo");
-console.log("Hellooooooo");
-console.log("Hellooooooo");
-console.log("Hellooooooo");
-console.log("Hellooooooo");
-console.log("Hellooooooo");
+var total = multiply(5,10);
+alert(total);
