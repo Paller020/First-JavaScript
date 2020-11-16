@@ -1,15 +1,13 @@
-//array
-var list = ["tiger", "cat", "bear", "bird"];
-console.log(list[0]);
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 
-//array with function
-var functionList=[function apple(){console.log("apple");}]
-console.log(functionList[0]);
 
-//array inside of an array
-var list2 = [["tiger", "cat", "bear", "bird"]];
-console.log(list2[0][3]);
-
-//list.shit();         list.pop();
-//list.push();         list.sort();
-
+//remove banana
+array.shift();
+//sort array
+array.sort();
+//put kiwi
+array.push("Kiwi");
+//remove "Apples"
+array.splice(0,1);
+//sort the array in reverse
+array.reverse;
