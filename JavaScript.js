@@ -11,3 +11,7 @@ array.push("Kiwi");
 array.splice(0,1);
 //sort the array in reverse
 array.reverse;
+
+
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+array2[1][1][2];
