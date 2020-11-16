@@ -1,35 +1,15 @@
+//array
+var list = ["tiger", "cat", "bear", "bird"];
+console.log(list[0]);
 
-function checkDriverAge(age) {
-	var age = prompt("What is your age?");
-	if (Number(age) < 18) {
-		alert("Sorry, you are too yound to drive this car. Powering off");
-	} else if (Number(age) > 18) {
-		alert("Powering On. Enjoy the ride!");
-	} else if (Number(age) === 18) {
-		alert("Congratulations on your first year of driving. Enjoy the ride!");
-	}
-}
-checkDriverAge();
+//array with function
+var functionList=[function apple(){console.log("apple");}]
+console.log(functionList[0]);
 
-var checkDriverAge2 = function() {
-	var age = prompt("What is your age?");
-	if (Number(age) < 18) {
-		alert("Sorry, you are too yound to drive this car. Powering off");
-	} else if (Number(age) > 18) {
-		alert("Powering On. Enjoy the ride!");
-	} else if (Number(age) === 18) {
-		alert("Congratulations on your first year of driving. Enjoy the ride!");
-	}
-}
+//array inside of an array
+var list2 = [["tiger", "cat", "bear", "bird"]];
+console.log(list2[0][3]);
 
-checkDriverAge2();
+//list.shit();         list.pop();
+//list.push();         list.sort();
 
-function checkDriverAge3(age) {
-    if (Number(age) < 18) {
-       return "Sorry, you are too yound to drive this car. Powering off";
-   } else if (Number(age) > 18) {
-       return "Powering On. Enjoy the ride!";
-    } else if (Number(age) === 18) {
-       return "Congratulations on your first year of driving. Enjoy the ride!";
-   }
-   }
