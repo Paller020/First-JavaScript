@@ -1,17 +1,33 @@
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+var user = {
+    name: "John",
+    age: 34, 
+    hobby:"Soccer", 
+    isMarried:false,
+    spells:["abradadra", "shazam", "boo"],
+    shout:function(){
+        console.log("AHHHHHHHHH!");
+    }   
+};
 
+var list = [
+   { 
+    username:"andy",
+    password:"secret",
+   },
+   {
+    username: "jess",
+    password: "123",
+   }
+];
 
-//remove banana
-array.shift();
-//sort array
-array.sort();
-//put kiwi
-array.push("Kiwi");
-//remove "Apples"
-array.splice(0,1);
-//sort the array in reverse
-array.reverse;
+user.age
+user.name
+user.hobby
+//add object
+user.favouriteFood = "spinach";
+user.isMarried = ture;
 
-
-var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-array2[1][1][2];
+//can still add stuff and edit it
+var emptyObj = {};
+//Empty and cant add 
+var nullObj = null; 
