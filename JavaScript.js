@@ -1,33 +1,32 @@
 var user = {
-    name: "John",
-    age: 34, 
-    hobby:"Soccer", 
-    isMarried:false,
-    spells:["abradadra", "shazam", "boo"],
-    shout:function(){
-        console.log("AHHHHHHHHH!");
-    }   
-};
+    username: "Peter",
+    password: "secret",
+}
 
-var list = [
-   { 
-    username:"andy",
+var database = [
+{
+    username:"Peter",
     password:"secret",
-   },
-   {
-    username: "jess",
-    password: "123",
-   }
+}
+
+
+
 ];
 
-user.age
-user.name
-user.hobby
-//add object
-user.favouriteFood = "spinach";
-user.isMarried = ture;
+var newsfeed = [
+    {
+        username:"Andy",
+        timeline:"Tired",
+    },
 
-//can still add stuff and edit it
-var emptyObj = {};
-//Empty and cant add 
-var nullObj = null; 
+    {
+        username:"Pablo",
+        timeline:"wideawake",
+    },
+
+    {
+        username:"Sam",
+        timeline:"sleepy",
+    }
+
+];
